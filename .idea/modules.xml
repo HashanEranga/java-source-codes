@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CurrencyFormatter/CurrencyFormatter.iml" filepath="$PROJECT_DIR$/CurrencyFormatter/CurrencyFormatter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dateTime/dateTime.iml" filepath="$PROJECT_DIR$/dateTime/dateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/day3/grading/grading.iml" filepath="$PROJECT_DIR$/class/day3/grading/grading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javSubstring/javSubstring.iml" filepath="$PROJECT_DIR$/javSubstring/javSubstring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-source-codes.iml" filepath="$PROJECT_DIR$/.idea/java-source-codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaAnagrams/javaAnagrams.iml" filepath="$PROJECT_DIR$/javaAnagrams/javaAnagrams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaRegex/javaRegex.iml" filepath="$PROJECT_DIR$/javaRegex/javaRegex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaRegex2/javaRegex2.iml" filepath="$PROJECT_DIR$/javaRegex2/javaRegex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaString/javaString.iml" filepath="$PROJECT_DIR$/javaString/javaString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaStringReverse/javaStringReverse.iml" filepath="$PROJECT_DIR$/javaStringReverse/javaStringReverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSubstringComp/javaSubstringComp.iml" filepath="$PROJECT_DIR$/javaSubstringComp/javaSubstringComp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javSubstring/javaSubstringComparison/javaSubstringComparison.iml" filepath="$PROJECT_DIR$/javSubstring/javaSubstringComparison/javaSubstringComparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/day3/maxFinder/maxFinder.iml" filepath="$PROJECT_DIR$/class/day3/maxFinder/maxFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternSyntaxChecker/patternSyntaxChecker.iml" filepath="$PROJECT_DIR$/patternSyntaxChecker/patternSyntaxChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringToken/stringToken.iml" filepath="$PROJECT_DIR$/stringToken/stringToken.iml" />
+    </modules>
+  </component>
+</project>

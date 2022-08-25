@@ -1,29 +1,31 @@
-class Box {
-    int length;
-    int width;
-    int height;
+class A{
+    int a;
 
-    { // instance block
-        this.length = 12;
-        this.width = 5;
-        this.height = 3;
-        System.out.println("Instance Block...");
-    }
-    public void printVolume() {
-        int volume = length * width * height;
-        System.out.println("Volume : " + volume);
+//    constructor
+    A(){
+        System.out.println("Constructor");
+        a = 100;
     }
 
-    public void setSize(int length, int width, int height) {
-        this.length = length;
-        this.width = width;
-        this.height = height;
+//    instance variable
+    {
+        a=10;
     }
+    /* compiler inserts
+    A(){
+        a=10;
+    }
+     */
 }
-
-class Main {
+class Example{
     public static void main(String[] args) {
-        Box b1= new Box();
-        b1.printVolume();
+        A a1= new A();
+        System.out.println(a1.a);// 10
     }
 }
+
+// compiler get the instance variable and
+//compiler added accordingly
+//compiler found constructor first but then look for instance valiables added them first
+//first run the whole file added instance variable
+//then run the constructor

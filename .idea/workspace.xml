@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f274561-3a74-4051-8efe-4abea3accb39" name="Changes" comment="static var can access by obj name">
+    <list default="true" id="8f274561-3a74-4051-8efe-4abea3accb39" name="Changes" comment="static block instance block constuctor order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/production/Day8/Example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/production/Day8/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/MyClass.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A" />
+      <module name="Day8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="Day8" />
@@ -66,13 +73,6 @@
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="Day8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="stringToken" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661445027443</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="null object show static variables">
+      <created>1661445567786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661445567786</updated>
+    </task>
+    <task id="LOCAL-00010" summary="static block instance block constuctor order">
+      <created>1661445793014</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661445793014</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +215,8 @@
     <MESSAGE value="access modifiers" />
     <MESSAGE value="static initialization &#10;Static variables and static methods" />
     <MESSAGE value="static var can access by obj name" />
-    <option name="LAST_COMMIT_MESSAGE" value="static var can access by obj name" />
+    <MESSAGE value="null object show static variables" />
+    <MESSAGE value="static block instance block constuctor order" />
+    <option name="LAST_COMMIT_MESSAGE" value="static block instance block constuctor order" />
   </component>
 </project>

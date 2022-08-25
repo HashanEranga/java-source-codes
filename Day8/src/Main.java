@@ -1,25 +1,16 @@
-class MyClass {
-
-    static {
-        System.out.println("static block");
-    }
-
-    {
-        System.out.println("instance block");
-    }
-
-    MyClass(){
-        System.out.println("Constructor block");
-    }
-}
-
-class Example{
+class A {
+    int a = 100;
+    static int b = 200;
     public static void main(String[] args) {
-        MyClass a1 = new MyClass();
-        System.out.println("==========================");
-        MyClass a2 = new MyClass();
+//        System.out.println(a); // error
+        System.out.println(b);
+        System.out.println(A.b);
+        System.out.println(new A().a);
+        new A().get();
+    }
+
+    public void get(){
+        System.out.println(a);
+        System.out.println(b);
     }
 }
-
-//static block run once when the class loads in to the ran and not after other objects are initialized
-//instance block runs at every time an object is created

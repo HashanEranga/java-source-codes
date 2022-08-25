@@ -1,25 +1,14 @@
-//static initialization (static variables and static methods)
-class MyClass {
-    int x; //instance variable
-    static int y = 10; // class variables, class variables and template variables.
+class MyClass{
+    int x = 100;
+    static int y = 200;
 }
 
-class Example {
+class Example{
     public static void main(String[] args) {
-        MyClass c1 = new MyClass();
-        c1.x = 1;
-        c1.y = 2;
+        MyClass a1 = new MyClass();
 
-        MyClass c2 = new MyClass();
-        c2.x = 10;
-        c2.y = 20;
-
-        MyClass c3 = new MyClass();
-        c3.x = 100;
-        c3.y = 23;
-
-        System.out.println("C1 : " + c1.x + " " + c1.y);
-        System.out.println("C2 : " + c2.x + " " + c2.y);
-        System.out.println("C3 : " + c3.x + " " + c3.y);
+        System.out.println(a1.x);
+        System.out.println(MyClass.y);
+        // cannot access non-static variables using MyClass
     }
 }

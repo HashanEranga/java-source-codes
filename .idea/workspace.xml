@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f274561-3a74-4051-8efe-4abea3accb39" name="Changes" comment="access modifiers">
+    <list default="true" id="8f274561-3a74-4051-8efe-4abea3accb39" name="Changes" comment="static initialization &#10;Static variables and static methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/ChangeValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentals/production/Day8/Value.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661443411657</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="static initialization &#10;Static variables and static methods">
+      <created>1661443992515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661443992515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +190,7 @@
     <MESSAGE value="pass by value happen when passing an argument to a method | added class values" />
     <MESSAGE value="call by value call by reference and pass by value" />
     <MESSAGE value="access modifiers" />
-    <option name="LAST_COMMIT_MESSAGE" value="access modifiers" />
+    <MESSAGE value="static initialization &#10;Static variables and static methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="static initialization &#10;Static variables and static methods" />
   </component>
 </project>

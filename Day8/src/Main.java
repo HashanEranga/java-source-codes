@@ -1,37 +1,22 @@
-class A{
+//parsing object to an method
+class Value {
     int a;
-
-//    constructor
-    A(){
-        System.out.println("Constructor");
-        a = 100;
+    Value(int a) {
+        this.a = a;
     }
-
-//    instance variable
-    {
-        a=10;
-    }
-
-    A(int x ){
-
-    }
-    /* compiler inserts
-    A(){
-        a=10;
-    }
-     */
 }
-class Example{
+
+class ChangeValue{
+    public static void increaseValue(int a){
+        a++;
+    }
+}
+
+class Demo {
     public static void main(String[] args) {
-        A a1= new A();
-        A a2 = new A(12);
-        System.out.println(a1.a);
-        System.out.println(a2.a);
+        Value v1 = new Value(100);
+        System.out.println(v1.a);
+        ChangeValue.increaseValue(v1.a);
+        System.out.println(v1.a);
     }
 }
-
-// compiler get the instance variable and
-//compiler added accordingly
-//compiler found constructor first but then look for instance valiables added them first
-//first run the whole file added instance variable
-//then run the constructor

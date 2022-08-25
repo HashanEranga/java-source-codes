@@ -11,6 +11,10 @@ class A{
     {
         a=10;
     }
+
+    A(int x ){
+
+    }
     /* compiler inserts
     A(){
         a=10;
@@ -20,7 +24,9 @@ class A{
 class Example{
     public static void main(String[] args) {
         A a1= new A();
-        System.out.println(a1.a);// 10
+        A a2 = new A(12);
+        System.out.println(a1.a);
+        System.out.println(a2.a);
     }
 }
 

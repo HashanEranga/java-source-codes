@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -12,9 +11,6 @@ public class Main {
         int lenB = b.length();
 
         if(lenA!=lenB) return false;
-
-//        Arrays.sort(arrA);
-//        Arrays.sort(arrB);
 
         char[] sortedArrA = ArrSort(arrA);
         char[] sortedArrB = ArrSort(arrB);

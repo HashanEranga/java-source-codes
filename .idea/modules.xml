@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CurrencyFormatter/CurrencyFormatter.iml" filepath="$PROJECT_DIR$/CurrencyFormatter/CurrencyFormatter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day8/Day8.iml" filepath="$PROJECT_DIR$/Day8/Day8.iml" />
       <module fileurl="file://$PROJECT_DIR$/dateTime/dateTime.iml" filepath="$PROJECT_DIR$/dateTime/dateTime.iml" />
       <module fileurl="file://$PROJECT_DIR$/class/day3/grading/grading.iml" filepath="$PROJECT_DIR$/class/day3/grading/grading.iml" />
       <module fileurl="file://$PROJECT_DIR$/javSubstring/javSubstring.iml" filepath="$PROJECT_DIR$/javSubstring/javSubstring.iml" />
